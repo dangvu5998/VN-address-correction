@@ -372,7 +372,7 @@ phong điền	cần thơ
 châu đức	bà rịa vũng tàu|bà rịa|vũng tàu
 tủa chùa	điện biên
 yên phong	bắc ninh
-quảng điền	thừa thiên huế
+quảng điền	thừa thiên huế|tt huế|tth
 châu đốc	an giang
 hà đông|hđ	hà nội|hn
 ngọc lặc	thanh hóa
@@ -402,10 +402,10 @@ than uyên	lai châu
 ba bể	bắc kạn
 yên lạc	vĩnh phúc
 quỳnh phụ	thái bình
-a lưới	thừa thiên huế
+a lưới	thừa thiên huế|tt huế|tth
 sơn la	sơn la
 phù cừ	hưng yên
-nam đông	thừa thiên huế
+nam đông	thừa thiên huế|tt huế|tth
 hà giang	hà giang
 văn yên	yên bái
 đăk glong	đắk nông
@@ -477,7 +477,7 @@ hoài ân	bình định
 chương mỹ|cm	hà nội|hn
 nho quan	ninh bình
 thanh liêm	hà nam
-hương trà	thừa thiên huế
+hương trà	thừa thiên huế|tt huế|tth
 tri tôn	an giang
 quận 4|4|q4	hồ chí minh|hcm
 hồng dân	bạc liêu
@@ -500,7 +500,7 @@ vạn ninh	khánh hòa
 ngã năm	sóc trăng
 phù cát	bình định
 điện bàn	quảng nam
-phú vang	thừa thiên huế
+phú vang	thừa thiên huế|tt huế|tth
 bình tân	vĩnh long
 hoằng hóa	thanh hóa
 sơn tây|st	hà nội|hn
@@ -618,7 +618,7 @@ tam kỳ	quảng nam
 núi thành	quảng nam
 xuân lộc	đồng nai
 ngô quyền|nq	hải phòng|hp
-huế	thừa thiên huế
+huế	thừa thiên huế|tt huế|tth
 bạch thông	bắc kạn
 cẩm giàng	hải dương
 ea kar	đắk lắk
@@ -642,7 +642,7 @@ tân hiệp	kiên giang
 tân lạc	hòa bình
 đoan hùng	phú thọ
 bình liêu	quảng ninh
-phú lộc	thừa thiên huế
+phú lộc	thừa thiên huế|tt huế|tth
 ba vì|bv	hà nội|hn
 lý sơn	quảng ngãi
 bắc yên	sơn la
@@ -663,7 +663,7 @@ cam lộ	quảng trị
 tây giang	quảng nam
 yên minh	hà giang
 hiệp hòa	bắc giang
-hương thủy	thừa thiên huế
+hương thủy	thừa thiên huế|tt huế|tth
 tam bình	vĩnh long
 kon tum	kon tum
 bắc trà my	quảng nam
@@ -696,7 +696,7 @@ quế phong	nghệ an
 mỹ đức|mđ	hà nội|hn
 lương sơn	hòa bình
 đam rông	lâm đồng
-phong điền	thừa thiên huế
+phong điền	thừa thiên huế|tt huế|tth
 quảng trạch	quảng bình
 yên thế	bắc giang
 phù ninh	phú thọ

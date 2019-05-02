@@ -1950,26 +1950,26 @@ gia lạc	gia viễn	ninh bình
 gia tân	gia viễn	ninh bình
 gia xuân	gia viễn	ninh bình
 gia tiến	gia viễn	ninh bình
-vinh phú	phú vang	thừa thiên huế
-phú thượng	phú vang	thừa thiên huế
-vinh hà	phú vang	thừa thiên huế
-phú mỹ	phú vang	thừa thiên huế
-phú thanh	phú vang	thừa thiên huế
-phú đa	phú vang	thừa thiên huế
-phú dương	phú vang	thừa thiên huế
-phú lương	phú vang	thừa thiên huế
-phú diên	phú vang	thừa thiên huế
-thuận an	phú vang	thừa thiên huế
-phú an	phú vang	thừa thiên huế
-vinh xuân	phú vang	thừa thiên huế
-vinh thanh	phú vang	thừa thiên huế
-phú xuân	phú vang	thừa thiên huế
-phú hồ	phú vang	thừa thiên huế
-vinh thái	phú vang	thừa thiên huế
-phú hải	phú vang	thừa thiên huế
-vinh an	phú vang	thừa thiên huế
-phú thuận	phú vang	thừa thiên huế
-phú mậu	phú vang	thừa thiên huế
+vinh phú	phú vang	thừa thiên huế|tt huế|tth
+phú thượng	phú vang	thừa thiên huế|tt huế|tth
+vinh hà	phú vang	thừa thiên huế|tt huế|tth
+phú mỹ	phú vang	thừa thiên huế|tt huế|tth
+phú thanh	phú vang	thừa thiên huế|tt huế|tth
+phú đa	phú vang	thừa thiên huế|tt huế|tth
+phú dương	phú vang	thừa thiên huế|tt huế|tth
+phú lương	phú vang	thừa thiên huế|tt huế|tth
+phú diên	phú vang	thừa thiên huế|tt huế|tth
+thuận an	phú vang	thừa thiên huế|tt huế|tth
+phú an	phú vang	thừa thiên huế|tt huế|tth
+vinh xuân	phú vang	thừa thiên huế|tt huế|tth
+vinh thanh	phú vang	thừa thiên huế|tt huế|tth
+phú xuân	phú vang	thừa thiên huế|tt huế|tth
+phú hồ	phú vang	thừa thiên huế|tt huế|tth
+vinh thái	phú vang	thừa thiên huế|tt huế|tth
+phú hải	phú vang	thừa thiên huế|tt huế|tth
+vinh an	phú vang	thừa thiên huế|tt huế|tth
+phú thuận	phú vang	thừa thiên huế|tt huế|tth
+phú mậu	phú vang	thừa thiên huế|tt huế|tth
 phước hậu	ninh phước	ninh thuận
 phước thuận	ninh phước	ninh thuận
 phước sơn	ninh phước	ninh thuận
@@ -4016,33 +4016,33 @@ quảng thạch	quảng trạch	quảng bình
 cảnh hóa	quảng trạch	quảng bình
 quảng liên	quảng trạch	quảng bình
 quảng tùng	quảng trạch	quảng bình
-an cựu	huế	thừa thiên huế
-an đông	huế	thừa thiên huế
-vĩ dạ	huế	thừa thiên huế
-thuận hòa	huế	thừa thiên huế
-phú hòa	huế	thừa thiên huế
-trường an	huế	thừa thiên huế
-xuân phú	huế	thừa thiên huế
-phú nhuận	huế	thừa thiên huế
-phú hậu	huế	thừa thiên huế
-phú cát	huế	thừa thiên huế
-thủy biều	huế	thừa thiên huế
-kim long	huế	thừa thiên huế
-vĩnh ninh	huế	thừa thiên huế
-thuận lộc	huế	thừa thiên huế
-phường đúc	huế	thừa thiên huế
-phú bình	huế	thừa thiên huế
-hương long	huế	thừa thiên huế
-hương sơ	huế	thừa thiên huế
-phước vĩnh	huế	thừa thiên huế
-phú hội	huế	thừa thiên huế
-thủy xuân	huế	thừa thiên huế
-thuận thành	huế	thừa thiên huế
-an hòa	huế	thừa thiên huế
-phú hiệp	huế	thừa thiên huế
-an tây	huế	thừa thiên huế
-tây lộc	huế	thừa thiên huế
-phú thuận	huế	thừa thiên huế
+an cựu	huế	thừa thiên huế|tt huế|tth
+an đông	huế	thừa thiên huế|tt huế|tth
+vĩ dạ	huế	thừa thiên huế|tt huế|tth
+thuận hòa	huế	thừa thiên huế|tt huế|tth
+phú hòa	huế	thừa thiên huế|tt huế|tth
+trường an	huế	thừa thiên huế|tt huế|tth
+xuân phú	huế	thừa thiên huế|tt huế|tth
+phú nhuận	huế	thừa thiên huế|tt huế|tth
+phú hậu	huế	thừa thiên huế|tt huế|tth
+phú cát	huế	thừa thiên huế|tt huế|tth
+thủy biều	huế	thừa thiên huế|tt huế|tth
+kim long	huế	thừa thiên huế|tt huế|tth
+vĩnh ninh	huế	thừa thiên huế|tt huế|tth
+thuận lộc	huế	thừa thiên huế|tt huế|tth
+phường đúc	huế	thừa thiên huế|tt huế|tth
+phú bình	huế	thừa thiên huế|tt huế|tth
+hương long	huế	thừa thiên huế|tt huế|tth
+hương sơ	huế	thừa thiên huế|tt huế|tth
+phước vĩnh	huế	thừa thiên huế|tt huế|tth
+phú hội	huế	thừa thiên huế|tt huế|tth
+thủy xuân	huế	thừa thiên huế|tt huế|tth
+thuận thành	huế	thừa thiên huế|tt huế|tth
+an hòa	huế	thừa thiên huế|tt huế|tth
+phú hiệp	huế	thừa thiên huế|tt huế|tth
+an tây	huế	thừa thiên huế|tt huế|tth
+tây lộc	huế	thừa thiên huế|tt huế|tth
+phú thuận	huế	thừa thiên huế|tt huế|tth
 nhơn sơn	ninh sơn	ninh thuận
 ma nới	ninh sơn	ninh thuận
 lâm sơn	ninh sơn	ninh thuận
@@ -4640,18 +4640,18 @@ ninh giang	ninh giang	hải dương
 ninh thành	ninh giang	hải dương
 đông xuyên	ninh giang	hải dương
 hồng thái	ninh giang	hải dương
-thủy vân	hương thủy	thừa thiên huế
-thủy phù	hương thủy	thừa thiên huế
-phú sơn	hương thủy	thừa thiên huế
-phú bài	hương thủy	thừa thiên huế
-thủy châu	hương thủy	thừa thiên huế
-thủy phương	hương thủy	thừa thiên huế
-dương hòa	hương thủy	thừa thiên huế
-thủy dương	hương thủy	thừa thiên huế
-thủy bằng	hương thủy	thừa thiên huế
-thủy lương	hương thủy	thừa thiên huế
-thủy thanh	hương thủy	thừa thiên huế
-thủy tân	hương thủy	thừa thiên huế
+thủy vân	hương thủy	thừa thiên huế|tt huế|tth
+thủy phù	hương thủy	thừa thiên huế|tt huế|tth
+phú sơn	hương thủy	thừa thiên huế|tt huế|tth
+phú bài	hương thủy	thừa thiên huế|tt huế|tth
+thủy châu	hương thủy	thừa thiên huế|tt huế|tth
+thủy phương	hương thủy	thừa thiên huế|tt huế|tth
+dương hòa	hương thủy	thừa thiên huế|tt huế|tth
+thủy dương	hương thủy	thừa thiên huế|tt huế|tth
+thủy bằng	hương thủy	thừa thiên huế|tt huế|tth
+thủy lương	hương thủy	thừa thiên huế|tt huế|tth
+thủy thanh	hương thủy	thừa thiên huế|tt huế|tth
+thủy tân	hương thủy	thừa thiên huế|tt huế|tth
 phú thạnh|pt	tân phú|tp	hồ chí minh|hcm
 nguyễn văn tố|nvt	tân phú|tp	hồ chí minh|hcm
 hoàng thiều hoa|hth	tân phú|tp	hồ chí minh|hcm
@@ -4813,22 +4813,22 @@ lê lợi|ll	gò vấp|gv	hồ chí minh|hcm
 nguyễn văn khối|nvk	gò vấp|gv	hồ chí minh|hcm
 lê văn thọ|lvt	gò vấp|gv	hồ chí minh|hcm
 nguyễn oanh|no	gò vấp|gv	hồ chí minh|hcm
-phong thu	phong điền	thừa thiên huế
-điền môn	phong điền	thừa thiên huế
-phong hiền	phong điền	thừa thiên huế
-phong bình	phong điền	thừa thiên huế
-phong an	phong điền	thừa thiên huế
-điền lộc	phong điền	thừa thiên huế
-phong mỹ	phong điền	thừa thiên huế
-phong sơn	phong điền	thừa thiên huế
-phong điền	phong điền	thừa thiên huế
-điền hòa	phong điền	thừa thiên huế
-phong xuân	phong điền	thừa thiên huế
-điền hải	phong điền	thừa thiên huế
-điền hương	phong điền	thừa thiên huế
-phong hòa	phong điền	thừa thiên huế
-phong hải	phong điền	thừa thiên huế
-phong chương	phong điền	thừa thiên huế
+phong thu	phong điền	thừa thiên huế|tt huế|tth
+điền môn	phong điền	thừa thiên huế|tt huế|tth
+phong hiền	phong điền	thừa thiên huế|tt huế|tth
+phong bình	phong điền	thừa thiên huế|tt huế|tth
+phong an	phong điền	thừa thiên huế|tt huế|tth
+điền lộc	phong điền	thừa thiên huế|tt huế|tth
+phong mỹ	phong điền	thừa thiên huế|tt huế|tth
+phong sơn	phong điền	thừa thiên huế|tt huế|tth
+phong điền	phong điền	thừa thiên huế|tt huế|tth
+điền hòa	phong điền	thừa thiên huế|tt huế|tth
+phong xuân	phong điền	thừa thiên huế|tt huế|tth
+điền hải	phong điền	thừa thiên huế|tt huế|tth
+điền hương	phong điền	thừa thiên huế|tt huế|tth
+phong hòa	phong điền	thừa thiên huế|tt huế|tth
+phong hải	phong điền	thừa thiên huế|tt huế|tth
+phong chương	phong điền	thừa thiên huế|tt huế|tth
 mường sang	mộc châu	sơn la
 lóng sập	mộc châu	sơn la
 chiềng hắc	mộc châu	sơn la
@@ -6767,17 +6767,17 @@ quảng hòa	quảng xương	thanh hóa
 quảng nham	quảng xương	thanh hóa
 quảng hợp	quảng xương	thanh hóa
 quảng thạch	quảng xương	thanh hóa
-quảng thái	quảng điền	thừa thiên huế
-quảng vinh	quảng điền	thừa thiên huế
-quảng thành	quảng điền	thừa thiên huế
-thị trấn sịa|sịa	quảng điền	thừa thiên huế
-quảng công	quảng điền	thừa thiên huế
-quảng thọ	quảng điền	thừa thiên huế
-quảng phú	quảng điền	thừa thiên huế
-quảng an	quảng điền	thừa thiên huế
-quảng ngạn	quảng điền	thừa thiên huế
-quảng lợi	quảng điền	thừa thiên huế
-quảng phước	quảng điền	thừa thiên huế
+quảng thái	quảng điền	thừa thiên huế|tt huế|tth
+quảng vinh	quảng điền	thừa thiên huế|tt huế|tth
+quảng thành	quảng điền	thừa thiên huế|tt huế|tth
+thị trấn sịa|sịa	quảng điền	thừa thiên huế|tt huế|tth
+quảng công	quảng điền	thừa thiên huế|tt huế|tth
+quảng thọ	quảng điền	thừa thiên huế|tt huế|tth
+quảng phú	quảng điền	thừa thiên huế|tt huế|tth
+quảng an	quảng điền	thừa thiên huế|tt huế|tth
+quảng ngạn	quảng điền	thừa thiên huế|tt huế|tth
+quảng lợi	quảng điền	thừa thiên huế|tt huế|tth
+quảng phước	quảng điền	thừa thiên huế|tt huế|tth
 an bình b	hồng ngự	đồng tháp
 an lạc	hồng ngự	đồng tháp
 an thạnh	hồng ngự	đồng tháp
@@ -7980,24 +7980,24 @@ hùng thắng	hạ long	quảng ninh
 yết kiêu	hạ long	quảng ninh
 hà tu	hạ long	quảng ninh
 cao xanh	hạ long	quảng ninh
-lộc an	phú lộc	thừa thiên huế
-lộc trì	phú lộc	thừa thiên huế
-phú lộc	phú lộc	thừa thiên huế
-vinh hiền	phú lộc	thừa thiên huế
-vinh mỹ	phú lộc	thừa thiên huế
-lăng cô	phú lộc	thừa thiên huế
-lộc hòa	phú lộc	thừa thiên huế
-vinh hải	phú lộc	thừa thiên huế
-lộc bình	phú lộc	thừa thiên huế
-lộc vĩnh	phú lộc	thừa thiên huế
-lộc điền	phú lộc	thừa thiên huế
-lộc tiến	phú lộc	thừa thiên huế
-lộc bổn	phú lộc	thừa thiên huế
-lộc sơn	phú lộc	thừa thiên huế
-vinh hưng	phú lộc	thừa thiên huế
-xuân lộc	phú lộc	thừa thiên huế
-lộc thủy	phú lộc	thừa thiên huế
-vinh giang	phú lộc	thừa thiên huế
+lộc an	phú lộc	thừa thiên huế|tt huế|tth
+lộc trì	phú lộc	thừa thiên huế|tt huế|tth
+phú lộc	phú lộc	thừa thiên huế|tt huế|tth
+vinh hiền	phú lộc	thừa thiên huế|tt huế|tth
+vinh mỹ	phú lộc	thừa thiên huế|tt huế|tth
+lăng cô	phú lộc	thừa thiên huế|tt huế|tth
+lộc hòa	phú lộc	thừa thiên huế|tt huế|tth
+vinh hải	phú lộc	thừa thiên huế|tt huế|tth
+lộc bình	phú lộc	thừa thiên huế|tt huế|tth
+lộc vĩnh	phú lộc	thừa thiên huế|tt huế|tth
+lộc điền	phú lộc	thừa thiên huế|tt huế|tth
+lộc tiến	phú lộc	thừa thiên huế|tt huế|tth
+lộc bổn	phú lộc	thừa thiên huế|tt huế|tth
+lộc sơn	phú lộc	thừa thiên huế|tt huế|tth
+vinh hưng	phú lộc	thừa thiên huế|tt huế|tth
+xuân lộc	phú lộc	thừa thiên huế|tt huế|tth
+lộc thủy	phú lộc	thừa thiên huế|tt huế|tth
+vinh giang	phú lộc	thừa thiên huế|tt huế|tth
 an phú	hớn quản	bình phước
 tân hưng	hớn quản	bình phước
 an khương	hớn quản	bình phước
@@ -8607,22 +8607,22 @@ thống nhất	buôn ma thuột	đắk lắk
 thành nhất	buôn ma thuột	đắk lắk
 tự an	buôn ma thuột	đắk lắk
 thành công	buôn ma thuột	đắk lắk
-tứ hạ	hương trà	thừa thiên huế
-hương vân	hương trà	thừa thiên huế
-bình thành	hương trà	thừa thiên huế
-hương phong	hương trà	thừa thiên huế
-hương bình	hương trà	thừa thiên huế
-bình điền	hương trà	thừa thiên huế
-hương chữ	hương trà	thừa thiên huế
-hương văn	hương trà	thừa thiên huế
-hồng tiến	hương trà	thừa thiên huế
-hương toàn	hương trà	thừa thiên huế
-hương hồ	hương trà	thừa thiên huế
-hương vinh	hương trà	thừa thiên huế
-hải dương	hương trà	thừa thiên huế
-hương an	hương trà	thừa thiên huế
-hương xuân	hương trà	thừa thiên huế
-hương thọ	hương trà	thừa thiên huế
+tứ hạ	hương trà	thừa thiên huế|tt huế|tth
+hương vân	hương trà	thừa thiên huế|tt huế|tth
+bình thành	hương trà	thừa thiên huế|tt huế|tth
+hương phong	hương trà	thừa thiên huế|tt huế|tth
+hương bình	hương trà	thừa thiên huế|tt huế|tth
+bình điền	hương trà	thừa thiên huế|tt huế|tth
+hương chữ	hương trà	thừa thiên huế|tt huế|tth
+hương văn	hương trà	thừa thiên huế|tt huế|tth
+hồng tiến	hương trà	thừa thiên huế|tt huế|tth
+hương toàn	hương trà	thừa thiên huế|tt huế|tth
+hương hồ	hương trà	thừa thiên huế|tt huế|tth
+hương vinh	hương trà	thừa thiên huế|tt huế|tth
+hải dương	hương trà	thừa thiên huế|tt huế|tth
+hương an	hương trà	thừa thiên huế|tt huế|tth
+hương xuân	hương trà	thừa thiên huế|tt huế|tth
+hương thọ	hương trà	thừa thiên huế|tt huế|tth
 tây hòa	trảng bom	đồng nai
 trảng bom	trảng bom	đồng nai
 đồi 61	trảng bom	đồng nai
@@ -10476,17 +10476,17 @@ phước kháng	thuận bắc	ninh thuận
 bắc phong	thuận bắc	ninh thuận
 lợi hải	thuận bắc	ninh thuận
 công hải	thuận bắc	ninh thuận
-hương sơn	nam đông	thừa thiên huế
-thượng quảng	nam đông	thừa thiên huế
-hương phú	nam đông	thừa thiên huế
-thượng long	nam đông	thừa thiên huế
-thượng nhật	nam đông	thừa thiên huế
-hương giang	nam đông	thừa thiên huế
-thượng lộ	nam đông	thừa thiên huế
-khe tre	nam đông	thừa thiên huế
-hương hữu	nam đông	thừa thiên huế
-hương hòa	nam đông	thừa thiên huế
-hương lộc	nam đông	thừa thiên huế
+hương sơn	nam đông	thừa thiên huế|tt huế|tth
+thượng quảng	nam đông	thừa thiên huế|tt huế|tth
+hương phú	nam đông	thừa thiên huế|tt huế|tth
+thượng long	nam đông	thừa thiên huế|tt huế|tth
+thượng nhật	nam đông	thừa thiên huế|tt huế|tth
+hương giang	nam đông	thừa thiên huế|tt huế|tth
+thượng lộ	nam đông	thừa thiên huế|tt huế|tth
+khe tre	nam đông	thừa thiên huế|tt huế|tth
+hương hữu	nam đông	thừa thiên huế|tt huế|tth
+hương hòa	nam đông	thừa thiên huế|tt huế|tth
+hương lộc	nam đông	thừa thiên huế|tt huế|tth
 thanh khê tây|tkt	thanh khê|tk	đà nẵng|đn
 chính gián|cg	thanh khê|tk	đà nẵng|đn
 an khê|ak	thanh khê|tk	đà nẵng|đn
@@ -10855,27 +10855,27 @@ him lam	điện biên phủ	điện biên
 mường thanh	điện biên phủ	điện biên
 noong bua	điện biên phủ	điện biên
 nam thanh	điện biên phủ	điện biên
-hồng vân	a lưới	thừa thiên huế
-hồng bắc	a lưới	thừa thiên huế
-hồng trung	a lưới	thừa thiên huế
-hương nguyên	a lưới	thừa thiên huế
-hồng hạ	a lưới	thừa thiên huế
-bắc sơn	a lưới	thừa thiên huế
-a ngo	a lưới	thừa thiên huế
-phú vinh	a lưới	thừa thiên huế
-a đớt	a lưới	thừa thiên huế
-hồng quảng	a lưới	thừa thiên huế
-đông sơn	a lưới	thừa thiên huế
-hồng thủy	a lưới	thừa thiên huế
-a roằng	a lưới	thừa thiên huế
-xã nhâm|nhâm	a lưới	thừa thiên huế
-hồng thái	a lưới	thừa thiên huế
-hồng thượng	a lưới	thừa thiên huế
-hương phong	a lưới	thừa thiên huế
-hồng kim	a lưới	thừa thiên huế
-a lưới	a lưới	thừa thiên huế
-sơn thủy	a lưới	thừa thiên huế
-hương lâm	a lưới	thừa thiên huế
+hồng vân	a lưới	thừa thiên huế|tt huế|tth
+hồng bắc	a lưới	thừa thiên huế|tt huế|tth
+hồng trung	a lưới	thừa thiên huế|tt huế|tth
+hương nguyên	a lưới	thừa thiên huế|tt huế|tth
+hồng hạ	a lưới	thừa thiên huế|tt huế|tth
+bắc sơn	a lưới	thừa thiên huế|tt huế|tth
+a ngo	a lưới	thừa thiên huế|tt huế|tth
+phú vinh	a lưới	thừa thiên huế|tt huế|tth
+a đớt	a lưới	thừa thiên huế|tt huế|tth
+hồng quảng	a lưới	thừa thiên huế|tt huế|tth
+đông sơn	a lưới	thừa thiên huế|tt huế|tth
+hồng thủy	a lưới	thừa thiên huế|tt huế|tth
+a roằng	a lưới	thừa thiên huế|tt huế|tth
+xã nhâm|nhâm	a lưới	thừa thiên huế|tt huế|tth
+hồng thái	a lưới	thừa thiên huế|tt huế|tth
+hồng thượng	a lưới	thừa thiên huế|tt huế|tth
+hương phong	a lưới	thừa thiên huế|tt huế|tth
+hồng kim	a lưới	thừa thiên huế|tt huế|tth
+a lưới	a lưới	thừa thiên huế|tt huế|tth
+sơn thủy	a lưới	thừa thiên huế|tt huế|tth
+hương lâm	a lưới	thừa thiên huế|tt huế|tth
 hòa hiệp nam|hhn	liên chiểu|lc	đà nẵng|đn
 hòa hiệp bắc|hhb	liên chiểu|lc	đà nẵng|đn
 hòa khánh bắc|hkb	liên chiểu|lc	đà nẵng|đn
