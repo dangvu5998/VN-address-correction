@@ -350,7 +350,7 @@ class AddressCorrection:
         if not isinstance(address, str):
             raise ValueError('Address must be a string')
         tokens = address.split()
-        prefix_number = ('số', 'đội', 'xóm', 'khu', 'ngách', 'đường', 'tổ', 'ngõ', 'phường')
+        prefix_number = ('phố', 'số', 'đội', 'xóm', 'khu', 'ngách', 'đường', 'tổ', 'ngõ', 'phường', 'khóm')
         for i in range(1, min(5, len(tokens))):
             if not tokens[i].isalpha() and 'p' not in tokens[i]:
                 corrected_token = self.correct(tokens[i-1], prefix_number, nb_candidates=1, distance_threshold=50)[0]
