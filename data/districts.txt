@@ -297,7 +297,7 @@ tuy phước|t.phước|t/phước	bình định|b/định|b.định
 tứ kỳ	hải dương|h/dương|h.dương
 ninh phước|n.phước|n/phước	ninh thuận|n/thuận|n.thuận
 đông sơn|đ.sơn|đ/sơn	thanh hóa|t/hóa|t.hóa
-phan rang-tháp chàm	ninh thuận|n/thuận|n.thuận
+phan rang-tháp chàm|p.rang-t.chàm|phan rang-t.chàm	ninh thuận|n/thuận|n.thuận
 bến lức|b.lức|b/lức	long an|l/an|l.an
 vĩnh hưng|v.hưng|v/hưng	long an|l/an|l.an
 hà trung	thanh hóa|t/hóa|t.hóa

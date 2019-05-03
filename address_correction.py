@@ -87,6 +87,8 @@ class AddressCorrection:
                 distance_th = 30
             wards_candidates = self.correct(phrase, correct_wards, distance_threshold=distance_th)
             for wards, wards_distance in wards_candidates:
+                if wards and len(wards) < 5:
+                    wards_distance *= 5
                 new_distance = current_distance + wards_distance
                 if new_distance >= result_distance or wards is None:
                     continue
@@ -184,6 +186,8 @@ class AddressCorrection:
             correct_districts = self.districts[province]
             district_candidates = self.correct(phrase, correct_districts)
             for district, distance_district in district_candidates:
+                if district and len(district) < 5:
+                    distance_district *= 5
                 new_distance = current_distance + distance_district
                 if new_distance >= result_distance or district is None:
                     continue
@@ -349,15 +353,21 @@ class AddressCorrection:
         '''
         if not isinstance(address, str):
             raise ValueError('Address must be a string')
+        address = address.replace('.', ' ').replace('-', ' ')
         tokens = address.split()
-        prefix_number = ('phố', 'số', 'đội', 'xóm', 'khu', 'ngách', 'đường', 'tổ', 'ngõ', 'phường', 'khóm')
-        for i in range(1, min(5, len(tokens))):
-            if not tokens[i].isalpha() and 'p' not in tokens[i]:
-                corrected_token = self.correct(tokens[i-1], prefix_number, nb_candidates=1, distance_threshold=50)[0]
-                if corrected_token[0] is not None:
-                    tokens[i-1] = corrected_token[0]
         result, distance_result = self._province_correction(tokens)
         if distance_result <= correct_th:
+            prefix_number = ('tdp', 'ấp', 'phố', 'số', 'đội', 'xóm', 'khu', 'ngách', 'đường', 'tổ', 'ngõ', 'phường', 'khóm')
+            tokens = result.split()
+            for i in range(1, min(5, len(tokens) - 1)):
+                have_comma = ',' in tokens[i]
+                if (not have_comma and not tokens[i].isalpha()) or (have_comma and not tokens[i][:-1].isalpha()):
+                    corrected_token = self.correct(tokens[i-1], prefix_number, nb_candidates=1, distance_threshold=20)[0]
+                    if corrected_token[0] is not None:
+                        tokens[i-1] = corrected_token[0]
+                if have_comma:
+                    break
+            result = ' '.join(tokens)
             return result, distance_result
         else:
             return address, -1
