@@ -357,17 +357,21 @@ class AddressCorrection:
         tokens = address.split()
         result, distance_result = self._province_correction(tokens)
         if distance_result <= correct_th:
-            prefix_number = ('tdp', 'ấp', 'phố', 'số', 'đội', 'xóm', 'khu', 'ngách', 'đường', 'tổ', 'ngõ', 'phường', 'khóm')
-            tokens = result.split()
-            for i in range(1, min(5, len(tokens) - 1)):
-                have_comma = ',' in tokens[i]
-                if (not have_comma and not tokens[i].isalpha()) or (have_comma and not tokens[i][:-1].isalpha()):
-                    corrected_token = self.correct(tokens[i-1], prefix_number, nb_candidates=1, distance_threshold=20)[0]
-                    if corrected_token[0] is not None:
-                        tokens[i-1] = corrected_token[0]
-                if have_comma:
-                    break
-            result = ' '.join(tokens)
-            return result, distance_result
+            nb_of_comma = result.count(',')
+            if nb_of_comma > 2:
+                prefix_number = ('tdp', 'ấp', 'phố', 'số', 'đội', 'xóm', 'khu', 'ngách', 'đường', 'tổ', 'ngõ', 'phường', 'khóm')
+                tokens = result.split()
+                for i in range(1, min(5, len(tokens) - 1)):
+                    have_comma = ',' in tokens[i]
+                    if (not have_comma and not tokens[i].isalpha()) or (have_comma and not tokens[i][:-1].isalpha()):
+                        corrected_token = self.correct(tokens[i-1], prefix_number, nb_candidates=1, distance_threshold=20)[0]
+                        if corrected_token[0] is not None:
+                            tokens[i-1] = corrected_token[0]
+                    if have_comma:
+                        break
+                result = ' '.join(tokens)
+                return result, distance_result
+            else:
+                return result, distance_result
         else:
             return address, -1
