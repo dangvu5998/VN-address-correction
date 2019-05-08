@@ -12,7 +12,7 @@ class StringDistance:
             self.cost_dict = dict()
         with open(filepath) as f:
             for line in f:
-                char1, char2, cost = line.strip().split('\t')
+                char1, char2, cost = line.rstrip().split('\t')
                 if char1 and char2:
                     self.cost_dict[(char1, char2)] = int(cost)
 
@@ -31,7 +31,7 @@ class StringDistance:
             v1[0] = (i + 1)*10
             for j in range(len(target)):
                 cost = 0 if source[i] == target[j] else self.cost_dict.get((source[i], target[j]), 8)
-                v1[j + 1] = min(v1[j] + 10 if target[j] != '.' else v1[j] + 7, v0[j + 1] + 10, v0[j] + cost)
+                v1[j + 1] = min(v1[j] + 4 if target[j] != '.' else v1[j] + 7, v0[j + 1] + 10, v0[j] + cost)
             for j in range(len(v0)):
                 v0[j] = v1[j]
                 

@@ -85,10 +85,10 @@ class AddressCorrection:
                 distance_th = 20
             else:
                 distance_th = 30
-            wards_candidates = self.correct(phrase, correct_wards, distance_threshold=distance_th)
+            wards_candidates = self.correct(phrase, correct_wards, distance_threshold=distance_th, nb_candidates=2)
             for wards, wards_distance in wards_candidates:
                 if wards and len(wards) < 5:
-                    wards_distance *= 5
+                    wards_distance *= 2
                 new_distance = current_distance + wards_distance
                 if new_distance >= result_distance or wards is None:
                     continue
@@ -115,7 +115,6 @@ class AddressCorrection:
                         new_wards_index = wards_index - 1
                         return new_wards_index, prefix_wards, distance
                     d = self.string_distance.distance(tokens[wards_index - 1], 'phường')
-                    # print(test)
                     if d < 10:
                         prefix_wards = 'phường'
                         new_wards_index = wards_index - 1
@@ -184,10 +183,10 @@ class AddressCorrection:
         for district_index in range(max(0, current_province_index - 4), current_province_index):
             phrase = ' '.join(tokens[district_index:current_province_index])
             correct_districts = self.districts[province]
-            district_candidates = self.correct(phrase, correct_districts)
+            district_candidates = self.correct(phrase, correct_districts, nb_candidates=3)
             for district, distance_district in district_candidates:
                 if district and len(district) < 5:
-                    distance_district *= 5
+                    distance_district *= 2
                 new_distance = current_distance + distance_district
                 if new_distance >= result_distance or district is None:
                     continue
@@ -221,6 +220,10 @@ class AddressCorrection:
                             return new_district_index, prefix_district, distance
                         if tokens[district_index - 1] == 'tp':
                             prefix_district = 'tp'
+                            new_district_index = district_index - 1
+                            return new_district_index, prefix_district, distance
+                        if tokens[district_index - 1] == 'tt':
+                            prefix_district = 'tt'
                             new_district_index = district_index - 1
                             return new_district_index, prefix_district, distance
                         if tokens[district_index - 1] == 'tx':
@@ -294,7 +297,7 @@ class AddressCorrection:
                     result_distance = result_distance_candidate
                     result = result_candidate
                 if index_province > 0:
-                    if tokens[index_province-1] == 'tp':
+                    if tokens[index_province-1] in ['tp', 't/p']:
                         if index_province <= 1:
                             result = 'tp ' + province
                             result_distance = distance_province
@@ -306,6 +309,17 @@ class AddressCorrection:
                         if result_distance_candidate < result_distance:
                             result_distance = result_distance_candidate
                             result = result_candidate
+                    elif tokens[index_province].startswith('tp'):
+                        if index_province <= 1:
+                            result = 'tp ' + province
+                            result_distance = distance_province
+                            continue
+                        result_candidate, result_distance_candidate = self._district_correction(
+                            tokens, 'tp', province, index_province,
+                            distance_province, result_distance
+                        )
+                        if result_distance_candidate < result_distance:
+                            result_distance = result_distance_candidate
                     elif self.string_distance.distance(tokens[index_province-1], 'tỉnh') < 10:
                         if index_province <= 1:
                             result = 'tỉnh ' + province
