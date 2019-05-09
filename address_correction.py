@@ -23,6 +23,7 @@ class AddressCorrection:
         self.districts = defaultdict(list)
         self.wards = defaultdict(list)
         self.underwards = defaultdict(list)
+        self.province_wards = defaultdict(list)
         with open(provinces_path, 'r', encoding='utf-8') as f:
             for line in f:
                 entity = line.strip()
@@ -49,11 +50,19 @@ class AddressCorrection:
                 for province in provinces:
                     for district in districts:
                         self.wards[(province, district)].extend(wards)
+                        # correct for lack of district
+                        self.province_wards[province].extend([ward for ward in wards if len(ward) > 3])
         with open(underwards_path, 'r', encoding='utf-8') as f:
             for line in f:
                 entity = line.strip()
                 underward, ward, district, province = entity.split('\t')
                 self.underwards[(province, district, ward)].append(underward)
+        self.provinces = tuple(set(self.provinces))
+        self.districts = {k:tuple(set(self.districts[k])) for k in self.districts}
+        self.wards = {k:tuple(set(self.wards[k])) for k in self.wards}
+        self.underwards = {k:tuple(set(self.underwards[k])) for k in self.underwards}
+        self.province_wards = {k:tuple(set(self.province_wards[k])) for k in self.province_wards}
+
 
     def correct(self, phrase, correct_phrases, nb_candidates=2, distance_threshold=40):
         candidates = [(None, distance_threshold)] * nb_candidates
@@ -80,7 +89,7 @@ class AddressCorrection:
             '{} {}'.format(prefix_province, province)
         for wards_index in range(max(0, current_district_index - 4), current_district_index):
             phrase = ' '.join(tokens[wards_index:current_district_index])
-            correct_wards = self.wards.get((province, district), [])
+            correct_wards = self.wards.get((province, district), tuple())
             if len(phrase) < 8:
                 distance_th = 20
             else:
@@ -88,9 +97,12 @@ class AddressCorrection:
             wards_candidates = self.correct(phrase, correct_wards, distance_threshold=distance_th, nb_candidates=2)
             for wards, wards_distance in wards_candidates:
                 if wards and len(wards) < 5:
-                    wards_distance *= 2
+                    if district == 'tp':
+                        wards_distance *= 3
+                    else:
+                        wards_distance *= 2
                 new_distance = current_distance + wards_distance
-                if new_distance >= result_distance or wards is None:
+                if new_distance > result_distance or wards is None:
                     continue
                 def check_prefix():
                     new_wards_index = None
@@ -135,7 +147,6 @@ class AddressCorrection:
                         distance = d + new_distance
                         return new_wards_index, prefix_wards, distance
                     return new_wards_index, prefix_wards, distance
-
                 new_wards_index, prefix_wards, _ = check_prefix()
                 if new_wards_index is None:
                     new_wards_index = wards_index
@@ -143,7 +154,7 @@ class AddressCorrection:
                 address_composition = [wards_normalized, district_normalized, province_normalized]
                 if new_wards_index > 0:
                     underwards_tokens = tokens[:new_wards_index]
-                    correct_underwards = self.underwards[(province, district, wards)]
+                    correct_underwards = self.underwards.get((province, district, wards), tuple())
                     corrected_underwards = None
                     under_wards_index = None
                     for i in range(len(underwards_tokens)-1, max(-1, len(underwards_tokens)-5), -1):
@@ -182,11 +193,51 @@ class AddressCorrection:
         stop_correction = False
         for district_index in range(max(0, current_province_index - 4), current_province_index):
             phrase = ' '.join(tokens[district_index:current_province_index])
-            correct_districts = self.districts[province]
+            # correct that lack of district
+#            if province in ['hn', 'hà nội', 'hcm', 'hồ chí minh']:
+#                correct_wards = self.province_wards[province]
+#                ward_candidates = self.correct(phrase, correct_districts, nb_candidates=3, distance_threshold=10)
+#                for ward, distance_ward in ward_candidates:
+#                    def check_prefix():
+#                        new_district_index = None
+#                        prefix_district = None
+#                        distance = new_distance
+#                        if district_index <= 0:
+#                            return new_district_index, prefix_district, distance
+#                        d = self.string_distance.distance(tokens[district_index - 1], 'huyện')
+#                        if d <= 2:
+#                            prefix_district = 'huyện'
+#                            new_district_index = district_index - 1
+#                            distance = d + new_distance
+#                            return new_district_index, prefix_district, distance
+#                        if tokens[district_index - 1] == 'q':
+#                            prefix_district = 'q'
+#                            new_district_index = district_index - 1
+#                            return new_district_index, prefix_district, distance
+#                        if tokens[district_index - 1] == 'quận':
+#                            prefix_district = 'quận'
+#                            new_district_index = district_index - 1
+#                            return new_district_index, prefix_district, distance
+#                        if tokens[district_index - 1] == 'tp':
+#                            prefix_district = 'tp'
+#                            new_district_index = district_index - 1
+#                            return new_district_index, prefix_district, distance
+#                        if tokens[district_index - 1] == 'tt':
+#                            prefix_district = 'tt'
+#                            new_district_index = district_index - 1
+#                            return new_district_index, prefix_district, distance
+#                        if tokens[district_index - 1] == 'tx':
+#                            prefix_district = 'tx'
+#                            new_district_index = district_index - 1
+#                            return new_district_index, prefix_district, distance
+#
+#                    
+#            # correct full ward, district, province
+            correct_districts = self.districts.get(province, tuple())
             district_candidates = self.correct(phrase, correct_districts, nb_candidates=3)
             for district, distance_district in district_candidates:
-                if district and len(district) < 5:
-                    distance_district *= 2
+                if district and (len(phrase) < 5 or len(district) < 5):
+                    distance_district *= 3
                 new_distance = current_distance + distance_district
                 if new_distance >= result_distance or district is None:
                     continue
